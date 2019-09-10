@@ -1,0 +1,8 @@
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+spring.datasource.url=jdbc:oracle:thin:sisaown/sisaown@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=10.1.10.211)(PORT=1525)))(CONNECT_DATA=(SID=sisadev)))
+spring.datasource.username=sisaown
+spring.datasource.password=sisaown
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+## this shows the sql actions in the terminal logs
+spring.jpa.show-sql=true
